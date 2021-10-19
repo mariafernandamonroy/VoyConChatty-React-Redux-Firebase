@@ -79,14 +79,15 @@ export default class SignUp extends Component {
             </button>
           </div>
           <p>You can also sign up with any of these services</p>
-          <button
-            className="btn btn-danger mr-2"
-            type="button"
-            onClick={this.googleSignIn}
-          >
-            Sign up with Google
-          </button>
-
+          <div className="form-group">
+            <button
+              className="btn__btn-danger_mr-2"
+              type="button"
+              onClick={this.googleSignIn}
+            >
+              Sign up with Google
+            </button>
+          </div>
           <hr></hr>
           <p>
             Already have an account? <Link to="/login">Login</Link>

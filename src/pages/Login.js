@@ -48,8 +48,8 @@ export default class Login extends Component {
           onSubmit={this.handleSubmit}
         >
           <h1>
-            Login to
-            <Link className="title ml-2" to="/">
+            Login to 
+            <Link className="title_ml-2" to="/">
               Chatty
             </Link>
           </h1>
@@ -85,14 +85,15 @@ export default class Login extends Component {
             </button>
           </div>
           <p>You can also log in with a google account</p>
+          <div className="form-group">
           <button
-            className="btn btn-danger mr-2"
+            className="btn__btn-danger_mr-2"
             type="button"
             onClick={this.googleSignIn}
           >
             Sign in with Google
           </button>
-
+          </div>
           <hr />
           <p>
             Don't have an account? <Link to="/signup">Sign up</Link>

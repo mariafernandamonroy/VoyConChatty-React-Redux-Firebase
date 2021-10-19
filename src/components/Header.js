@@ -9,7 +9,7 @@ function Header() {
         <Link className="navbar-brand" to="/">
           Chatty
         </Link>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -19,7 +19,7 @@ function Header() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         <div
           className="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
@@ -38,10 +38,10 @@ function Header() {
             </div>
           ) : (
             <div className="navbar-nav">
-              <Link className="nav-item nav-link mr-3" to="/login">
+              <Link className="nav-item_nav-link_mr-3" to="/login">
                 Sign In
               </Link>
-              <Link className="nav-item nav-link mr-3" to="/signup">
+              <Link className="nav-item_nav-link_mr-3" to="/signup">
                 Sign Up
               </Link>
             </div>
